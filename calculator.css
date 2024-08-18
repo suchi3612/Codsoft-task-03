@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: sans-serif;
+    background-color: #fdbea9;
+ 
+
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/palette-calculator-bow-red-background_23-2148182111.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.calc{
+    box-shadow: 6px 6px 13px  #3b3c3d
+    , 6px 6px 13px rgba(0, 0, 0, .16);
+    border-radius: 28px;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: repeat(4,66px);
+}
+
+input{
+    grid-column: span 4;
+    height: 68px;
+    width: 258px;
+    box-shadow: inset -6px -6px 13px #10694a
+    , inset 6px 6px 13px rgba(0, 0, 0, .16);
+    background-color: #10694a;
+    border: none;
+    border-radius: 32px;
+    color: rgb(26,25,25);
+    text-align: end;
+    margin: 40px 0px 30px 0px;
+    padding: 20px;
+    font-size: 40px;
+}
+button{
+    box-shadow: inset 6px 6px 13px  
+    , 6px 6px 13px rgba(0, 0, 0, .16);
+   background-color: #808080;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.clear{
+    background-color: rgb(234, 10, 55);
+}
+.delete{
+    background-color: rgb(234, 10, 55);
+
+}
+.equals{
+    background-color: rgb(30, 172, 30);
+}
+.modulus{
+    background-color: rgb(233, 85, 32);
+}
+.add{
+    background-color: rgb(233, 85, 32);
+}
+.sub{
+    background-color: rgb(233, 85, 32);
+}
+.multiplier{
+    background-color: rgb(233, 85, 32);
+}
+.divider{
+    background-color: rgb(233, 85, 32);
+}
